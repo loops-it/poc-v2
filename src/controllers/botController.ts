@@ -238,6 +238,7 @@ export const handleQuestionResponse = async (req: Request, res: Response) => {
         }
         index++;
       }
+      
 
       latestMessageContent = text.value;
     }
